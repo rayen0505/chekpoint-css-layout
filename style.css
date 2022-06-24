@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+*{
+    margin: 0 auto;
+}
+#logo{
+    width: 268px;
+    height: auto;
+}
+.dropmenu{
+    display: none;
+    position: absolute;
+}
+.menu{
+    display: flex;
+    width: 252px;
+    justify-content: center
+    ;align-items:center ;
+    height: 100%;
+    font-family: roboto;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ABABAB;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0
+}
+li{
+    list-style: none;
+}
+nav{
+    height: 100%;
+    width: 252px;
+}
+.menu-item:hover{
+    color: #00b39B;
+}
+.menu-item:hover .dropmenu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.265);
+    width: 220px ;
+    height: 220px;
+    margin-left: -170px;  
+}
+.drop-menu-item{
+    color: #ABABAB;
+    width: 100%;
+    height: 100%;
+    margin-left: -30px;
+    padding: 0px 20px;
+    
+}
+.drop-menu-item:hover{
+    background-color: #ababab60;
+    color: #00b39B;
+}
