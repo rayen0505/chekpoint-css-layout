@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Work+Sans:wght@100&display=swap');
 *{
     margin: 0 auto;
 }
@@ -28,7 +29,10 @@ header{
     height: 70px;
     width: 100%;
     position: fixed;
-    top:0
+    top:0;
+    background-color: white;
+    box-shadow: 0px 0px 0px 3px rgba(74, 74, 74, 0.147);
+    
 }
 li{
     list-style: none;
@@ -61,3 +65,348 @@ nav{
     background-color: #ababab60;
     color: #00b39B;
 }
+#selection-1 p{
+    height:112px ;
+    width: 400px;
+    font-family:roboto ;
+    font-size:16px ;    
+}
+#selection1-p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+#selection-1{    
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+#selection-1 img{
+    height:39px ;
+    width: 40px;
+}
+#selection-1 h1{
+    height:44px ;
+    width:975px ;
+    color:#00b39b ;
+    font-family:work sans ;
+    font-size:44px ;
+    margin-top:15px ;
+    margin-bottom:35px ;
+}
+#parag-1{
+    margin-right: 10px;
+    
+}
+#parag-2{
+    margin-left: 10px;
+    
+}
+#green{
+    height:345px ;
+    width:311px ;
+    background-color: #00ccb1;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px
+    }
+#blue{
+    height:345px ;
+    width:311px  ;
+    background-color: #3d83df;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px
+}
+#black{
+    height:345px ;
+    width:311px  ;
+    background-color: #1b2734;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px
+}
+#selection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#selection2 div{
+    border-radius: 10px;
+    margin: 20px;
+}
+#selection2 h1{
+    margin-top: 15px;
+    font-size: 26px;
+}
+#selection2 p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+#selection2 select{
+    margin-top: 80px;
+}
+#green select{
+    background-color: #00ccb1;
+    color: white;
+    border-color:#00ccb1;
+    text-decoration: underline;
+}
+#blue select{
+    background-color:#3d83df ;
+    color:white ;
+    border-color:#3d83df;
+    text-decoration: underline;
+}
+#black select{
+    border: solid #1b2734 1px;
+    background-color:#1b2734 ;
+    color: white;
+    border-color:#1b2734 ;
+    text-decoration: underline;
+    border-radius: 25px
+}
+#selection3 h1{
+    height:101px ;
+    width:321px ;
+    font-family:work sans ;
+    font-size:26px ;
+    color: #00b39B;
+    margin-right: 50px;
+}
+.sponlogo{
+    height: 109px;
+    width: 653px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:15px;
+    
+    
+}
+#selection3{
+    margin-top: 40px;
+    display: flex;
+}
+#selection3 svg{
+    height:20px ;
+    width:114px ;
+    fill:rgba(128, 128, 128, 0.617);
+    
+}
+#selection3 img{
+    height:26px ;
+    width:126px;
+    filter: grayscale(100%);
+}
+#selection3 img:hover{
+    filter: grayscale(0);
+}
+#selection3 svg:hover{
+    fill: #00b39B;
+} 
+#selection4{
+    height:600px ;
+    width:1864 ;
+    background-color: #E5FAF8;
+}
+#selection4 h1{
+    height:88px ;
+    width:477px ;
+    color:#00B39B ;
+    font-family:work sans ;
+    font-size:34px ;
+} 
+#selection4-para{
+    height:48px ;
+    width:415px ;
+    color:#747474 ;
+    font-family:roboto ;
+    font-size:14px ;
+}
+.box{
+    height:250px ;
+    width:228px ;
+    background-color: white;
+    border-radius: 15px;
+}
+.box img{
+    height:40px ;
+    width:35px ;
+    margin-left: 110px;
+    margin-top: 15px;
+    
+}
+.box h3{
+    height:62px ;
+    width:198px ;
+    color: #00b39B;
+    font-family:work sans ;
+    font-size:24px ;
+    text-align: center;
+    margin-top: 15px;
+}
+.box p{
+    height:67px ;
+    width:198px ;
+    color:#747474 ;
+    font-family:roboto ;
+    font-size:16px ;
+    text-align: center;
+    margin-top: 10px;
+}
+.box{
+    height:250px ;
+    width:228px ;
+    background-color: white;
+    border-radius: 15px;
+}
+.box img{
+    height:40px ;
+    width:35px ;
+    margin-left: 110px;
+    margin-top: 15px;
+    
+}
+.box h3{
+    height:62px ;
+    width:198px ;
+    color: #00b39B;
+    font-family:work sans ;
+    font-size:24px ;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.selec4{
+    margin-left: 100px;
+}
+#box3{
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+#selection5{
+    height:1150px ;
+    width:1015px ;
+    margin-top: 70px;
+}
+#selection5 h1{
+    height: 78px;
+    width: 460px;
+    color: #00b39B;
+    font-family: work sans;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+#selection5-para{
+    height:72px ;
+    width:460px ;
+    color: #747474;
+    font-family: roboto;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.carte{
+    height:350px ;
+    width:300px ;
+    border-radius: 10px; 
+    margin: 5px;
+}
+.carte img{
+    height:278px ;
+    width:300px ;
+    border-radius: 5px;
+    justify-content: center;
+}
+.carte h4{
+    height:20px ;
+    width: 70px;
+    color: #747474;
+    font-family: roboto;
+    font-size: 18px;
+}
+.carte button{
+    height:30px ;
+    width:103px ;
+    color: white;
+    background-color: #3d83df;
+    font-family: roboto;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border-color: #3d83df;
+}
+.carte-text{
+    display: flex;
+    width: 300px;
+    margin-right: 100px;
+    padding-top: 15px;
+    }
+.carte:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+  #cartes{
+    height:100% ;
+    width:100% ;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap; 
+  }
+  #selection6{
+    height:101px ;
+    width:520px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  #selection6 h1{
+    height:39px ;
+    width:520px ;
+    color: #333;
+    font-family: work sans;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  #selection6 button{
+    height:40px ;
+    width:211px ;
+    background-color: #3d83df;
+    color: white;
+    font-family:roboto ;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 14px 18px 14px 18px;
+    border-radius: 5px;
+    border-color: #3d83df;
+    align-items: center;
+    margin-top: 20px;  
+  }
+  #selection7{
+    height:90px ;
+    width:1015px ;
+    margin-top: 400px;
+  }
+  #parag1{
+    height:15px ;
+    width:975px ;
+  }
+  #parag2{
+    height:15px ;
+    width:975px ;
+  }
+  #selection7 p{
+    font-family: roboto;
+    font-size: 12px;
+    color: #ABABAB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  
